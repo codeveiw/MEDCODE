@@ -1,0 +1,231 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "Hero": {
+    "eyebrow": "Smart Healthcare Technology",
+    "title": "Intelligent Digital Solutions",
+    "highlight": "For Medical Providers",
+    "description": "We develop websites, apps, and integrated management systems for clinics and medical centers to elevate their digital presence and improve patient care.",
+    "primaryCta": "Explore Services",
+    "secondaryCta": "Get in Touch",
+    "benefitOne": "Secure & Reliable Systems",
+    "benefitTwo": "Tailored & Intuitive Interfaces",
+    "dashboardLabel": "Management Dashboard",
+    "dashboardTitle": "Clinic Overview",
+    "appointments": "Today's Appointments",
+    "doctors": "Available Doctors",
+    "smartManagement": "Smart Clinic Control",
+    "betterExperience": "Better Patient Experience",
+    "dashboardDescription": "Manage bookings, doctor schedules, and patient records seamlessly from a unified platform."
+  },
+  "Services": {
+    "eyebrow": "Our Services",
+    "title": "Software Solutions Built for Healthcare",
+    "description": "We deliver a comprehensive suite of digital solutions engineered specifically for clinics, medical practices, and hospitals.",
+    "digital": {
+      "title": "Medical Websites",
+      "description": "High-performing, responsive websites that showcase your specialties and make it simple for patients to discover you."
+    },
+    "management": {
+      "title": "Clinic Management Systems",
+      "description": "Digital tools to organize bookings, doctor rotations, and day-to-day operations efficiently."
+    },
+    "applications": {
+      "title": "Healthcare Mobile Apps",
+      "description": "Mobile applications that connect patients to doctors for consultations, records, and follow-ups."
+    },
+    "custom": {
+      "title": "Custom Healthcare Software",
+      "description": "Tailor-made cloud software adapted to the unique operational workflows of your healthcare facility."
+    },
+    "learnMore": "Learn More"
+  },
+  "WhyUs": {
+    "eyebrow": "Why MedCode",
+    "title": "Your Trusted Healthcare Tech Partner",
+    "description": "We blend deep healthcare domain knowledge with cutting-edge engineering to create solutions that deliver real clinical value.",
+    "security": {
+      "title": "Data Privacy & Security",
+      "description": "Enterprise-grade encryption and compliance to safeguard patient information."
+    },
+    "experience": {
+      "title": "Effortless Experience",
+      "description": "Clean, human-centered UI that requires minimal training for clinic staff."
+    },
+    "innovation": {
+      "title": "Modern Architecture",
+      "description": "Built on modern frameworks ensuring high speed, reliability, and smooth scaling."
+    },
+    "healthcare": {
+      "title": "Healthcare Focused",
+      "description": "Purpose-built for healthcare workflows, not generic one-size-fits-all software."
+    },
+    "statement": "Driving Digital Transformation in Healthcare",
+    "statementDescription": "We empower medical teams to focus on patient wellbeing while our digital solutions handle operational complexity."
+  },
+  "CTA": {
+    "eyebrow": "Get Started",
+    "title": "Ready to Transform Your Medical Practice?",
+    "description": "Connect with our team today and let's explore how our digital solutions can help your practice thrive.",
+    "button": "Book a Free Consultation"
+  },
+  "Footer": {
+    "description": "Specialized in engineering digital products and management platforms for healthcare providers and medical clinics.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "solutions": "Solutions",
+    "contactTitle": "Contact Us",
+    "contact": "Request Consultation",
+    "rights": "All rights reserved.",
+    "tagline": "Innovating technology for better healthcare."
+  },
+  "SolutionsPage": {
+    "eyebrow": "Our Solutions",
+    "title": "Technology designed around healthcare.",
+    "description": "We create digital solutions that help healthcare providers improve patient experiences and simplify daily operations.",
+    "sectionEyebrow": "What We Build",
+    "sectionTitle": "Solutions for modern healthcare",
+    "sectionDescription": "From your first online presence to complete digital management systems, we help your healthcare business grow.",
+    "items": {
+      "websites": {
+        "title": "Healthcare Websites",
+        "description": "Professional websites that introduce your clinic, showcase your services, and help patients find the information they need."
+      },
+      "appointments": {
+        "title": "Appointment Booking",
+        "description": "Digital appointment request and booking experiences that make it easier for patients to connect with your clinic."
+      },
+      "management": {
+        "title": "Clinic Management",
+        "description": "Organized dashboards that help medical teams manage appointments, patient requests, and daily workflows."
+      },
+      "healthcare": {
+        "title": "Custom Healthcare Software",
+        "description": "Tailored digital products designed around the specific needs and workflows of healthcare providers."
+      }
+    },
+    "securityTitle": "Built with trust and security in mind.",
+    "securityDescription": "We believe healthcare technology should be reliable, easy to use, and designed with data protection in mind.",
+    "contactButton": "Discuss Your Project"
+  },
+  "ContactPage": {
+    "eyebrow": "Get in Touch",
+    "title": "Let's build something better for healthcare.",
+    "description": "Tell us about your clinic, your challenges, and the digital solution you're looking for.",
+    "infoTitle": "Let's start a conversation",
+    "infoDescription": "Have a project in mind? We'd be happy to learn more about your needs.",
+    "emailTitle": "Email",
+    "emailDescription": "codeview1976@gmail.com",
+    "phoneTitle": "Phone Number",
+    "phoneDescription": "+20 155 126 0673",
+    "locationTitle": "Location",
+    "locationDescription": "Cairo, Egypt",
+    "formTitle": "Send us a message",
+    "successMessage": "Your message has been sent successfully. We will contact you soon.",
+"errorMessage": "Something went wrong. Please try again later.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "service": "Service Interested In",
+      "servicePlaceholder": "Select a service",
+      "websiteOption": "Healthcare Website",
+      "appointmentsOption": "Appointment Booking",
+      "managementOption": "Clinic Management",
+      "customOption": "Custom Software",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "demoSuccess": "Demo only: your form passed validation successfully.",
+      "nameError": "Please enter at least 2 characters.",
+      "emailError": "Please enter a valid email address.",
+      "phoneError": "Please enter a valid phone number.",
+      "serviceError": "Please select a service.",
+      "messageError": "Please enter at least 10 characters."
+     
+    }
+  },
+  "AboutPage": {
+    "metaTitle": "About MedCode",
+    "metaDescription": "Learn about MedCode and our approach to healthcare technology.",
+    "eyebrow": "About MedCode",
+    "title": "Building Better Digital Experiences for Healthcare",
+    "description": "MedCode is a healthcare technology company focused on developing digital solutions that support medical providers and improve patient experiences.",
+    "missionTitle": "Our Mission",
+    "missionDescription": "To empower healthcare providers with practical, secure, and easy-to-use digital solutions that help improve their services and daily operations.",
+    "visionTitle": "Our Vision",
+    "visionDescription": "To contribute to a more connected healthcare ecosystem where technology makes medical services more accessible and efficient.",
+    "valuesEyebrow": "What Guides Us",
+    "valuesTitle": "The Values Behind Our Work",
+    "valuesDescription": "Every solution we build is guided by principles that shape how we work and serve our clients.",
+    "trust": {
+      "title": "Trust",
+      "description": "Building reliable relationships through transparency and responsibility."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Using modern technology to solve meaningful problems."
+    },
+    "simplicity": {
+      "title": "Simplicity",
+      "description": "Making digital tools easier to understand and use."
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "Paying attention to details and delivering thoughtful solutions."
+    },
+    "ctaTitle": "Let's shape the future of healthcare together.",
+    "ctaDescription": "We would love to learn about your goals and explore how technology can support them.",
+    "ctaButton": "Get in Touch"
+  },
+  "ServicesPage": {
+    "metaTitle": "Our Services",
+    "metaDescription": "Digital solutions for clinics and healthcare providers.",
+    "eyebrow": "Our Services",
+    "title": "Technology Solutions Designed for Healthcare",
+    "description": "From digital presence to custom healthcare software, we help medical providers build better digital experiences.",
+    "digital": {
+      "title": "Digital Presence",
+      "description": "Build a professional online identity for your clinic and make it easier for patients to discover your services.",
+      "feature1": "Professional clinic websites",
+      "feature2": "Doctor and specialty profiles",
+      "feature3": "Responsive and bilingual experiences"
+    },
+    "management": {
+      "title": "Clinic Management",
+      "description": "Simplify appointment workflows and organize the daily operations of your clinic.",
+      "feature1": "Online appointment requests",
+      "feature2": "Appointment management dashboard",
+      "feature3": "Organized patient communication"
+    },
+    "applications": {
+      "title": "Healthcare Applications",
+      "description": "Create connected digital experiences for healthcare providers and their patients.",
+      "feature1": "Patient-facing applications",
+      "feature2": "Digital communication tools",
+      "feature3": "Connected healthcare experiences"
+    },
+    "custom": {
+      "title": "Custom Healthcare Software",
+      "description": "Develop software solutions tailored to the operational needs of medical organizations.",
+      "feature1": "Custom software development",
+      "feature2": "Workflow automation",
+      "feature3": "Scalable digital systems"
+    },
+    "ctaTitle": "Have a project in mind?",
+    "ctaDescription": "Let's explore the right digital solution for your healthcare business.",
+    "ctaButton": "Contact Our Team"
+  }
+}
