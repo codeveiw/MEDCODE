@@ -9,10 +9,6 @@ import { useTranslations } from "next-intl";
 import { Send, CheckCircle2, AlertCircle } from "lucide-react";
 
 const contactSchema = z.object({
-  name: z.string().trim().min(2, "nameError"),
-  email: z.string().trim().email("emailError"),
-  phone: z.string().trim().min(7, "phoneError"),
-  service: z.string().min(1, "serviceError"),
   message: z.string().trim().min(10, "messageError"),
 });
 
@@ -31,10 +27,6 @@ export default function ContactForm() {
   } = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
       message: "",
     },
   });
@@ -87,76 +79,6 @@ export default function ContactForm() {
           <p>{t("errorMessage")}</p>
         </div>
       )}
-
-      <div className="grid gap-5 md:grid-cols-2">
-        <div>
-          <label className="mb-2 block font-medium text-slate-700">
-            {t("name")}
-          </label>
-          <input
-            {...register("name")}
-            placeholder={t("namePlaceholder")}
-            className={inputClass}
-          />
-          {errors.name && (
-            <p className="mt-1 text-sm text-red-500">
-              {t(errors.name.message as "nameError")}
-            </p>
-          )}
-        </div>
-
-        <div>
-          <label className="mb-2 block font-medium text-slate-700">
-            {t("email")}
-          </label>
-          <input
-            {...register("email")}
-            type="email"
-            placeholder={t("emailPlaceholder")}
-            className={inputClass}
-          />
-          {errors.email && (
-            <p className="mt-1 text-sm text-red-500">
-              {t(errors.email.message as "emailError")}
-            </p>
-          )}
-        </div>
-
-        <div>
-          <label className="mb-2 block font-medium text-slate-700">
-            {t("phone")}
-          </label>
-          <input
-            {...register("phone")}
-            type="tel"
-            placeholder={t("phonePlaceholder")}
-            className={inputClass}
-          />
-          {errors.phone && (
-            <p className="mt-1 text-sm text-red-500">
-              {t(errors.phone.message as "phoneError")}
-            </p>
-          )}
-        </div>
-
-        <div>
-          <label className="mb-2 block font-medium text-slate-700">
-            {t("service")}
-          </label>
-          <select {...register("service")} className={inputClass}>
-            <option value="">{t("servicePlaceholder")}</option>
-            <option value="website">{t("websiteOption")}</option>
-            <option value="appointments">{t("appointmentsOption")}</option>
-            <option value="management">{t("managementOption")}</option>
-            <option value="custom">{t("customOption")}</option>
-          </select>
-          {errors.service && (
-            <p className="mt-1 text-sm text-red-500">
-              {t(errors.service.message as "serviceError")}
-            </p>
-          )}
-        </div>
-      </div>
 
       <div>
         <label className="mb-2 block font-medium text-slate-700">

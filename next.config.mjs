@@ -1,7 +1,5 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import path from "node:path";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -16,11 +14,13 @@ const nextConfig = {
       },
     },
   },
+
   webpack: (config) => {
     config.resolve.alias["next-intl/config"] = path.resolve(
-      __dirname,
+      import.meta.dirname,
       "./app/i18n/request.ts"
     );
+
     return config;
   },
 };

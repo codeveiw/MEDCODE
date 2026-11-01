@@ -18,12 +18,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("Metadata");
 
   return {
-    title: {
-      default: t("title"),
-      template: `%s | MedCode`,
-    },
+    title: t("title"),
     description: t("description"),
     applicationName: "MedCode",
+    icons: {
+      icon: "/logo/شعار ميدكود الطبي بتقنية عصرية (1).png",
+    },
     keywords: [
       "Healthcare Technology",
       "Clinic Management",

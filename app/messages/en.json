@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "MedCode",
+    "description": "Specialized in engineering digital products and management platforms for healthcare providers and medical clinics."
+  },
   "Navbar": {
     "home": "Home",
     "about": "About",
